@@ -1,38 +1,41 @@
-.App {
-  text-align: center;
+.ant-btn {
+  margin-top : 0.5vh;
+  background: black!important;
+  color : white!important;
+  border: none!important;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.btn{
+  margin-top: 4vh;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+body{
+  background: rgb(53,53,53)!important;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+header{
+  border-bottom: 1px solid rgb(90, 90, 90)!important;
 }
 
-.App-link {
-  color: #61dafb;
+.ant-input:hover, .ant-input-password:hover{
+  border-color: rgb(255 255 255 / 30%)!important;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.ant-input:focus, .ant-input-focused{
+  border-color: rgb(255 255 255 / 30%)!important;
+  box-shadow: 0 0 0 2px rgb(255 255 255 / 30%)!important;
+}
+
+.ant-input-affix-wrapper:focus, .ant-input-affix-wrapper-focused, .ant-btn:hover, .ant-btn:focus{
+  border-color: rgb(255 255 255 / 30%)!important;
+  box-shadow: 0 0 0 2px rgb(255 255 255 / 30%)!important;
+}
+
+.ant-row{
+  color:white;
+  margin-bottom: 1vh;
+}
+
+html{
+  --antd-wave-shadow-color:rgb(255 255 255 / 30%)!important;
 }
