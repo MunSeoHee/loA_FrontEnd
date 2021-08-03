@@ -1,11 +1,11 @@
-.ant-btn {
+.btn {
   margin-top : 0.5vh;
   background: black!important;
   color : white!important;
   border: none!important;
 }
 
-.btn{
+.btn_row{
   margin-top: 4vh;
 }
 
@@ -39,3 +39,4 @@ header{
 html{
   --antd-wave-shadow-color:rgb(255 255 255 / 30%)!important;
 }
+

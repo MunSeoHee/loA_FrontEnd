@@ -1,0 +1,23 @@
+Table{
+    font-size: xx-small;
+}
+
+th, .ant-table-cell {
+    padding: 2vh 0px!important;
+    margin:0px!important;
+    justify-content: center;
+    text-align: center!important;
+}
+.ant-form-item{
+    justify-content: center!important;
+    text-align: center!important;
+    margin:0px;
+}
+.ant-form-item>div{
+    margin:0px;
+}
+td.ant-table-cell {
+    padding: 0px!important;
+    justify-content: center;
+    vertical-align: middle!important;
+}

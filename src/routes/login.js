@@ -4,7 +4,7 @@ import "antd/dist/antd.css";
 import { Layout } from "antd";
 import { Input } from "antd";
 import { Button } from 'antd';
-import "../App.css";
+import "../css/App.css";
 import {Link} from "react-router-dom";
 const { Header, Content} = Layout;
 
@@ -32,8 +32,8 @@ class Login extends React.Component {
                 <Row>
                   <Input.Password placeholder="password" />
                 </Row>
-                <Row className="btn"><Button block><Link to="/dashboard">로그인</Link></Button></Row>
-                <Row><Button type="primary" block>회원가입</Button></Row>
+                <Row className="btn_row"><Button className="btn" block><Link to="/dashboard">로그인</Link></Button></Row>
+                <Row><Button className="btn" type="primary" block>회원가입</Button></Row>
               </Col>
             </Row>
           </Content>
